@@ -18,43 +18,4 @@ public class WxOpenAuthorizationInfo implements Serializable {
   private String authorizerRefreshToken;
   private List<Integer> funcInfo;
 
-  public String getAuthorizerAppid() {
-    return authorizerAppid;
-  }
-
-  public void setAuthorizerAppid(String authorizerAppid) {
-    this.authorizerAppid = authorizerAppid;
-  }
-
-  public String getAuthorizerAccessToken() {
-    return authorizerAccessToken;
-  }
-
-  public void setAuthorizerAccessToken(String authorizerAccessToken) {
-    this.authorizerAccessToken = authorizerAccessToken;
-  }
-
-  public int getExpiresIn() {
-    return expiresIn;
-  }
-
-  public void setExpiresIn(int expiresIn) {
-    this.expiresIn = expiresIn;
-  }
-
-  public String getAuthorizerRefreshToken() {
-    return authorizerRefreshToken;
-  }
-
-  public void setAuthorizerRefreshToken(String authorizerRefreshToken) {
-    this.authorizerRefreshToken = authorizerRefreshToken;
-  }
-
-  public List<Integer> getFuncInfo() {
-    return funcInfo;
-  }
-
-  public void setFuncInfo(List<Integer> funcInfo) {
-    this.funcInfo = funcInfo;
-  }
 }

@@ -16,22 +16,6 @@ public class WxOpenAuthorizerInfoResult implements Serializable {
   private WxOpenAuthorizationInfo authorizationInfo;
   private WxOpenAuthorizerInfo authorizerInfo;
 
-  public WxOpenAuthorizationInfo getAuthorizationInfo() {
-    return authorizationInfo;
-  }
-
-  public void setAuthorizationInfo(WxOpenAuthorizationInfo authorizationInfo) {
-    this.authorizationInfo = authorizationInfo;
-  }
-
-  public WxOpenAuthorizerInfo getAuthorizerInfo() {
-    return authorizerInfo;
-  }
-
-  public void setAuthorizerInfo(WxOpenAuthorizerInfo authorizerInfo) {
-    this.authorizerInfo = authorizerInfo;
-  }
-
   public boolean isMiniProgram() {
     return authorizerInfo != null && authorizerInfo.getMiniProgramInfo() != null;
   }

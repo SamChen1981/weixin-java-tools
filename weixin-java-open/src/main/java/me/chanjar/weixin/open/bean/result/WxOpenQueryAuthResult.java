@@ -14,11 +14,4 @@ public class WxOpenQueryAuthResult implements Serializable {
 
   private WxOpenAuthorizationInfo authorizationInfo;
 
-  public WxOpenAuthorizationInfo getAuthorizationInfo() {
-    return authorizationInfo;
-  }
-
-  public void setAuthorizationInfo(WxOpenAuthorizationInfo authorizationInfo) {
-    this.authorizationInfo = authorizationInfo;
-  }
 }
