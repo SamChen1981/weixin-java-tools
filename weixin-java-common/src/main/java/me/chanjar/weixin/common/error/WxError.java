@@ -38,7 +38,33 @@ public class WxError implements Serializable {
    */
   private String errorMsgEn;
 
+  public int getErrorCode() {
+    return errorCode;
+  }
+
+  public void setErrorCode(int errorCode) {
+    this.errorCode = errorCode;
+  }
+
+  public String getErrorMsg() {
+    return errorMsg;
+  }
+
+  public void setErrorMsg(String errorMsg) {
+    this.errorMsg = errorMsg;
+  }
+
+  public String getErrorMsgEn() {
+    return errorMsgEn;
+  }
+
+  public void setErrorMsgEn(String errorMsgEn) {
+    this.errorMsgEn = errorMsgEn;
+  }
+
   private String json;
+
+
 
   public static WxError fromJson(String json) {
     return fromJson(json, null);

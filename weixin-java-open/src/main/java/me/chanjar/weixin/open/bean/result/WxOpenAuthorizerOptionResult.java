@@ -14,4 +14,28 @@ public class WxOpenAuthorizerOptionResult implements Serializable {
   String authorizerAppid;
   String optionName;
   String optionValue;
+
+  public String getAuthorizerAppid() {
+    return authorizerAppid;
+  }
+
+  public void setAuthorizerAppid(String authorizerAppid) {
+    this.authorizerAppid = authorizerAppid;
+  }
+
+  public String getOptionName() {
+    return optionName;
+  }
+
+  public void setOptionName(String optionName) {
+    this.optionName = optionName;
+  }
+
+  public String getOptionValue() {
+    return optionValue;
+  }
+
+  public void setOptionValue(String optionValue) {
+    this.optionValue = optionValue;
+  }
 }

@@ -13,4 +13,12 @@ public class WxOpenQueryAuthResult implements Serializable {
   private static final long serialVersionUID = 2394736235020206855L;
 
   private WxOpenAuthorizationInfo authorizationInfo;
+
+  public WxOpenAuthorizationInfo getAuthorizationInfo() {
+    return authorizationInfo;
+  }
+
+  public void setAuthorizationInfo(WxOpenAuthorizationInfo authorizationInfo) {
+    this.authorizationInfo = authorizationInfo;
+  }
 }

@@ -37,4 +37,44 @@ public class WxOpenMaCodeTemplate implements Serializable {
    */
   @SerializedName(value = "createTime", alternate = "create_time")
   private Long createTime;
+
+  public Long getDraftId() {
+    return draftId;
+  }
+
+  public void setDraftId(Long draftId) {
+    this.draftId = draftId;
+  }
+
+  public Long getTemplateId() {
+    return templateId;
+  }
+
+  public void setTemplateId(Long templateId) {
+    this.templateId = templateId;
+  }
+
+  public String getUserVersion() {
+    return userVersion;
+  }
+
+  public void setUserVersion(String userVersion) {
+    this.userVersion = userVersion;
+  }
+
+  public String getUserDesc() {
+    return userDesc;
+  }
+
+  public void setUserDesc(String userDesc) {
+    this.userDesc = userDesc;
+  }
+
+  public Long getCreateTime() {
+    return createTime;
+  }
+
+  public void setCreateTime(Long createTime) {
+    this.createTime = createTime;
+  }
 }

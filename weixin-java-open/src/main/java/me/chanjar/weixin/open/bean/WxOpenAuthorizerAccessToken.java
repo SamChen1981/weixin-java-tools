@@ -14,6 +14,8 @@ public class WxOpenAuthorizerAccessToken implements Serializable {
 
   private int expiresIn = -1;
 
+
+
   public static WxOpenAuthorizerAccessToken fromJson(String json) {
     return WxOpenGsonBuilder.create().fromJson(json, WxOpenAuthorizerAccessToken.class);
   }
